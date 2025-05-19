@@ -87,6 +87,7 @@
             <span class="user-icon">👤</span>
         </div>
     </nav>
+  
     <footer class="footer-logos-bar">
         <div class="logos-scroll">
           <div class="logos-track">
@@ -146,7 +147,7 @@
               <section class="cta-section">
                 <div class="cta-offers-card">
                   <h2>Receba dicas sobre ergonomia!</h2>
-                  <form id="cta-offers-form" autocomplete="off">
+                  <form id="cta-offers-form" method="POST" action="{{ url_for('submit_form_route') }}" autocomplete="off">
                     <label for="cta-name">Nome:</label>
                     <input type="text" id="cta-name" name="name" required>
                     <label for="cta-phone">Telefone:</label>
@@ -154,6 +155,7 @@
                     <label for="cta-email">Email:</label>
                     <input type="email" id="cta-email" name="email" required>
                     <button type="submit">Cadastrar!</button>
+                    <div id="response-box" style="margin-top: 10px; color: green;"></div>
                   </form>
         
         <a href="https://www.magazineluiza.com.br/cadeiras-para-escritorio/l/mb/cees/" target="_blank" class="ad-banner"><img src="https://a-static.mlcdn.com.br/800x560/cadeira-gamer-otello-preto-e-vermelho/magazineluiza/237019000/8317ba770e47346614be8049a18197c4.jpg" style="width: 200px; height: auto;"></a>
