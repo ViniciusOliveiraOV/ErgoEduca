@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - ERGOEDUCA</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">ERGOEDUCA</div>
+        <ul class="navbar-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+            <li><a href="/contato">Contatos</a></li>
+        </ul>
+        <div class="navbar-user">
+            <span class="user-icon">👤</span>
+        </div>
+    </nav>
+    <div class="contact-container">
+        <h1>Contato</h1>
+        <div class="contact-logos">
+            <a href="https://discord.com/users/o.v._" target="_blank" title="Discord">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvQSo64weeAlpUwYBIBKt76KoHjdxDSpEGg&s" alt="Discord Logo" class="contact-logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/viniciusoliveiraov/" target="_blank" title="LinkedIn">
+                <img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn Logo" class="contact-logo" />
+            </a>
+            <a href="https://github.com/ViniciusOliveiraOV" target="_blank" title="GitHub">
+                <img src="https://static.vecteezy.com/system/resources/previews/016/833/872/non_2x/github-logo-git-hub-icon-on-white-background-free-vector.jpg" alt="GitHub Logo" class="contact-logo" />
+            </a>
+        </div>
+    </div>
+    <style>
+        .contact-container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 32px 24px 24px 24px;
+            border-radius: 14px;
+            box-shadow: 0 2px 16px #0002;
+            text-align: center;
+        }
+        .contact-logos {
+            display: flex;
+            justify-content: center;
+            gap: 36px;
+            margin-top: 24px;
+        }
+        .contact-logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            border-radius: 12px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 8px #0001;
+            background: #fff;
+        }
+        .contact-logo:hover {
+            transform: scale(1.08);
+            box-shadow: 0 4px 16px #0002;
+        }
+    </style>
