@@ -26,9 +26,11 @@ projeto/
   - `/contato` - Página "Contato", caso queira falar com o desenvolvedor. 
 
 ### Frontend
-- **`templates/index.html`**: Estrutura HTML da página principal, inclui conteúdo informativo, anúncios (ad-banners) e o formulário para cadastro de email para recebimento de dicas sobre saúde, ergonomia e novidades do site.
-- **`static/main.js`**: Lógica frontend, manipulação de eventos de formulário (como o de cadastro de email) e outras interações da interface do usuário.
-- **`static/style.css`**: Estiliza a aplicação, incluindo navbar, banners, layout das páginas, botões e responsividade.
+- **`templates/index.html`**: Estrutura HTML da página principal. Inclui conteúdo informativo sobre ergonomia, anúncios (ad-banners com scroll horizontal), um formulário para cadastro de email (para recebimento de dicas e novidades), e a funcionalidade de leitura de texto em voz alta.
+- **`templates/sobre.html`**: Página "Sobre" do projeto ERGOEDUCA. Apresenta os objetivos de conscientização sobre boa postura, cadeiras ergonômicas, e sua afiliação como projeto de extensão da UNICSUL. Contém banners e informações institucionais.
+- **`templates/contato.html`**: Estrutura HTML da página de contato. Fornece informações ou um formulário para que os usuários possam entrar em contato com o desenvolvedor ou responsáveis pelo projeto.
+- **`static/main.js`**: Lógica frontend. Responsável pela manipulação de eventos de formulário (como o de cadastro de email), interações da interface do usuário, e a funcionalidade de leitura de texto em voz alta (Text-to-Speech).
+- **`static/style.css`**: Estiliza a aplicação. Define a aparência da navbar, banners, layout das páginas, botões, e garante a responsividade do site.
 - **`templates/sobre.html`**: Página "Sobre" do projeto ERGOEDUCA, apresentando seus objetivos de conscientização sobre boa postura, cadeiras ergonômicas, e sua afiliação como projeto de extensão da UNICSUL. Contém banners e informações institucionais.
 
 ## Como Executar
