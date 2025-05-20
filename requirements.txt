@@ -1,1 +1,6 @@
 Flask==3.0.3
+flask_sqlalchemy
+psycopg2-binary
+Flask-Migrate
+gunicorn
+python-dotenv
